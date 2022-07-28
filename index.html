@@ -7,8 +7,11 @@
   <title>Edu-Aid</title>
   <link rel="stylesheet" href="style.css">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
 
 </head>
 
@@ -224,45 +227,49 @@
 
 
     <!-- Section Explore Starts -->
-    <section class="explore explorebg my-5">
-      <div class="row align-items-center">
-        <div class="col-12 col-md-5 col-lg-5 align-self-md-stretch">
-          <div class="">
-            <img src="images/working.png" class="img-fluid " alt="">
+    <section class="explore my-5 py-5">
+      <div class=" explorebg ">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-5 col-lg-5 align-self-md-stretch">
+            <div class="">
+              <img src="images/working.png" class="img-fluid " alt="">
+            </div>
           </div>
-        </div>
-        <div class="col-12 col-md-7 col-lg-7">
-          <div class="">
-            <h2 class="fw-bolder display-3"> Explore The elearning Institute</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which....See More
-            </p>
-            <div class="d-flex flex-md-nowrap flex-wrap">
-              <div class="">
-                <h2 class="fw-bold">3.2K+</h2>
-                <p>Online Courses</p>
-              </div>
+          <div class="col-12 col-md-7 col-lg-7">
+            <div class="">
+              <h2 class="fw-bolder display-3"> Explore The elearning Institute</h2>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration
+                in some form, by injected humour, or randomised words which....See More
+              </p>
+              <div class="d-flex flex-md-nowrap flex-wrap">
+                <div class="">
+                  <h2 class="fw-bold">3.2K+</h2>
+                  <p>Online Courses</p>
+                </div>
 
-              <div class="mx-5">
-                <h2 class="fw-bold">600+</h2>
-                <p>Active Members</p>
-              </div>
+                <div class="mx-5">
+                  <h2 class="fw-bold">600+</h2>
+                  <p>Active Members</p>
+                </div>
 
-              <div class="">
-                <h2 class="fw-bold">1K+</h2>
-                <p>Ratings & Reviews</p>
+                <div class="">
+                  <h2 class="fw-bold">1K+</h2>
+                  <p>Ratings & Reviews</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
     </section>
     <!-- Section Explore Ends -->
 
 
     <!-- Section Regestration Starts -->
-    <section class="regestration my-5 bg-primary p-4 rounded">
-      <div class="container text-white row justify-content-center align-items-center">
+    <section class="regestration my-5 py-5 ">
+      <div class="container text-white row justify-content-center align-items-center bg-primary py-5 rounded">
         <div class="col-12 col-md-12 col-lg-6">
           <h1 class="display-2 fw-bold text-center text-lg-start">Ready to join?</h1>
           <p class="text-center text-lg-start">It is a long established fact that a reader will be distracted by the
@@ -314,7 +321,7 @@
 
 
     <!-- Section Students Starts -->
-    <Section class="students">
+    <Section class="students my-5 py-5">
       <h1 class="fw-bold text-center text-md-start"> Meet Our Students</h1>
       <p class=" text-center text-md-start">It is a long established fact that a reader will be distracted by the<br>
         readable content of a page when looking at its layout
@@ -364,7 +371,7 @@
     <!-- Section Students Ends -->
 
     <!-- Section Feedback Starts  -->
-    <section class="feedback my-5">
+    <section class="feedback my-5 py-5">
       <h1 class="text-center fw-bold"> Some Students Feedback</h1>
       <p class="text-center">
         It is a long established fact that a reader will be distracted by the readable content of a page when looking at
@@ -471,18 +478,115 @@
       </div>
     </section>
     <!-- Section Feedback Ends  -->
+
+
+    <!-- Section Faq Starts  -->
+    <section class="faq my-5 py-5">
+      <h1 class="text-center fw-bold my-5">Frequenty Asked Questions</h1>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              <h3 class="text-dark">What is the difference between flex and grid?</h3>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              CSS Grid and Flexbox are layout models that share similarities and can be used together. The key
+              difference is that CSS Grid can be used to create two-dimensional layouts, while Flexbox can only be used
+              to create one-dimensional layouts. That means you can place components along the X- and Y-axis in CSS Grid
+              and only one axis in Flexbox.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <h3 class="text-dark">What is the difference between bootstrap and Tailwind?</h3>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Bootstrap is the most popular HTML, CSS, and JavaScript framework for building responsive, mobile-first
+              projects on the web. Tailwind CSS, on the other hand, is the most popular utility-first CSS framework for
+              fast UI development.
+
+              The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI kit. Unlike UI kits
+              such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn’t have a default theme or built-in UI
+              components. Instead, it comes with predesigned widgets you can use to build your site from scratch.
+
+              Bootstrap is known for its responsiveness, whereas proponents of Tailwind CSS typically value the
+              framework’s customizability. The best choice for you depends on your priorities and project requirements,
+              but let’s talk about why Tailwind CSS is quickly gaining popularity and more widespread use.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h3 class="text-dark">What is css box model?</h3>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The CSS Box Model is used to create a definition for the way the HTML elements are organized on the
+              screen. This approach accounts for options such as margins, padding, borders, and all the properties that
+              manipulate them.
+
+              Each element can be thought of as having its own box. As all the elements on a page have to work together
+              with each other, it is quite important to know just how each of those boxes works. This brief tutorial
+              will help explain the box model for beginners.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-four" id="headingfour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+              <h3 class="text-dark">What is semantic tag??</h3>
+            </button>
+          </h2>
+          <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Semantic HTML (also called semantic markup) is HTML code that uses HTML tags to effectively describe the
+              purpose of page elements. Semantic HTML code communicates the meaning of its elements to both computers
+              and humans, which helps web browsers, search engines, assistive technologies, and human developers
+              understand the components of a web page.
+
+              The key to well-written semantic HTML is the use of semantic tags. Semantic HTML tags have names that tell
+              the person or machine reading the code what exactly they’re meant to do.
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Faq Ends  -->
+
+
   </main>
+
+
 
   <!-- Main Ends -->
 
   <!-- Footer Starts -->
   <!-- Footer Ends -->
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-  </script>
+
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
